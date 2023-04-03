@@ -8,7 +8,7 @@ import 'package:peliculas/models/models.dart';
 class MoviesProvider extends ChangeNotifier {
   
   final String _baseUrl = 'api.themoviedb.org';
-  final String _token = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5OGNiMTY3MTI4MGE5NTBiNjdkOGUwMzYyMWRmYWI5MiIsInN1YiI6IjY0MGNkZjNhMmEwOWJjMDBjNTJkMmVlYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.aXu_7ANeWb2JCO-2XYwDco3Eq_6IvxEhVMgfHHQXh_c';
+  final String _token = '';
   List<Movie> nowPlayingMovies = [];
   List<Movie> popularMovies = [];
   Map<int, List<Cast>> movieCasts = {};
